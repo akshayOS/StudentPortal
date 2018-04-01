@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Information System</title>
+	<link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+		<h1>Student Information System</h1>
+		</div>
+		<img id="back-img" src="backg.jpeg" />
+		<form name="feedback_form" action="server.php" method="post">
+			<div class="feedback">
+					<h3 class="heading">Feed back form</h3>
+					
+						<input type="text" class="field1" name="name" placeholder="Name" onblur="feedbackname()"><br>
+						<input type="email" class="field1" name="email" placeholder="Email-ID" onblur="feedbackemail()"><br>
+						<textarea name="message" class="field1" rows="10" cols="30" placeholder="Enter your feedback here..!" onblur="feedbacktext()"></textarea><br>
+						<input type="submit" value="Feedback" name="feedback" class="field" id="submit1" onclick="return Validate3()">
+					
+			</div>
+		</form>
+		<div class="bar">
+			<ul>
+				<li><a href="adminlogin.html">Admin Login</a></li>
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="contactus.html">Contact us</a></li>
+			</ul>
+		</div>
+	</div>
+		<script type="text/javascript" src="script.js"></script>
+
+</body>
+</htm
